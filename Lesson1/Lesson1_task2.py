@@ -1,4 +1,4 @@
-my_age = "27 y.o."
-my_age = "30 y.o."
+my_age = 27
+my_age = 30
 
 print(my_age)
