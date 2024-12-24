@@ -1,8 +1,10 @@
 import math
 
+
 def square(storona):
-    storona = math.ceil(storona)  # Округляем сторону вверх до ближайшего целого
+    storona = math.ceil(storona)
     return storona ** 2
+
 
 user_input = input("Введите сторону квадрата: ").replace(',', '.')
 user_input = float(user_input)

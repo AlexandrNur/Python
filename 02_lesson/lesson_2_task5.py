@@ -10,6 +10,6 @@ def month_to_season(month):
     else:
         print("Введено некорректное значение")
 
+
 month = int(input("Введите месяц в виде числа: "))
 month_to_season(month)
-
