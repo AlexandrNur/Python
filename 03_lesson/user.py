@@ -10,4 +10,4 @@ class User:
         print(f"Фамилия: {self.last_name}")
 
     def get_full_name(self):
-        print(f'Имя и фамилия: {self.first_name} {self.last_name}')
+        print(f"Имя и фамилия: {self.first_name} {self.last_name}")
