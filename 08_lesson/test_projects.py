@@ -26,7 +26,7 @@ def session(auth_token):
 
 def test_create_project_success(session):
     project_data = {
-        "title": "ТестТест",
+        "title": "ТестТестТест",
         "users": {"": ""}  # Прописать {"id сотрудника":"роль сотрудника"}
     }
 
